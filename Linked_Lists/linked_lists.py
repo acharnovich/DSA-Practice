@@ -40,17 +40,14 @@ class LinkedList:
             return None
         # set pointer to head
         temp = self.head
-        #print(id(temp))
         # set pre to head
         pre = self.head
         # temp.next is not none
         while(temp.next):
             # set pre to temp.head, this will set 
             pre = temp
-            #print(id(pre))
             # set temp to temp.next
             temp = temp.next
-            #print(id(temp))
         # once temp.next is none, set self.tail to pre (temp.head)
         self.tail = pre
         self.tail.next = None
