@@ -1,3 +1,5 @@
+# Given an array of sorted numbers, move all non-duplicate number instances at the beginning of the array in-place. The non-duplicate numbers should be sorted 
+# you should not use any extra space so that the solution has constant space complexity
 class Solution:
   def moveElements(self, arr):
     # Initialize the index for the next non-duplicate element
